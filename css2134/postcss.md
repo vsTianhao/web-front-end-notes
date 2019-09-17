@@ -14,7 +14,7 @@ PostCSS本身就做了一件事：将CSS/CSS-Processor代码解析成AST（Abstr
 > >
 > > 比如：UglifyJS压缩JS代码实质上也是对JS代码的AST进行的操作，之后再重新生成压缩后的JS源码。
 > >
-> > 其中，JS的语法解析器[Espsrima](http://esprima.org/)（[http://esprima.org/demo/parse.html）](http://esprima.org/demo/parse.html）) 提供了在线的AST解析工具，可以查看AST结构，在此不做深入扩展。
+> > 其中，JS的语法解析器[Esprima](http://esprima.org/)（[http://esprima.org/demo/parse.html）](http://esprima.org/demo/parse.html）) 提供了在线的AST解析工具，可以查看AST结构，在此不做深入扩展。
 
 ### 先来了解插件的写法。
 
